@@ -21,7 +21,9 @@ img.vbg{
 width: 100%;
 
 }
-
+.banner{
+  width: 100%;
+}
 
 ul{
 display:flex;
