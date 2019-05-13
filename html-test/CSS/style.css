@@ -189,7 +189,9 @@ padding: 10px;
   background: white;
   font-size: 32px;
   overflow: hidden;
-  padding: 5px;
+  margin-right: 0%;
+  padding-right: 0%;
+
 }
 #betalRuta p{
 padding: 5px;
