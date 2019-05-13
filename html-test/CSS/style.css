@@ -184,11 +184,11 @@ padding: 10px;
 }
 
 #betalRuta{
-  width: 100%;
+  width: 90%;
   height: 200px;
+  overflow: hidden;
   background: white;
   font-size: 32px;
-  overflow: hidden;
   margin-right: 0%;
   padding-right: 0%;
 
