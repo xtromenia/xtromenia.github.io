@@ -197,3 +197,30 @@ padding: 5px;
 
 
 }
+
+footer{
+  height: 150px;
+  width: 100%;
+  background: black;
+
+}
+
+footer a{
+  color: white;
+  text-align: center;
+  padding-left: 50px;
+}
+
+#mail{
+object-fit: none;
+object-position: -158px -10px;
+width: 150px;
+height: 128px;
+}
+
+#telefon{
+  object-fit: none;
+  object-position: -10px -158px;
+  width: 128px;
+  height: 128px;
+}
