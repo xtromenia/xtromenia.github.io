@@ -1,0 +1,381 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  background: rgb(255,165,0);
+  font-size: 17px;
+  font-family: sans-serif;
+  display: flex;
+  border-bottom: solid;
+  border-color: white;
+  border-width: 2px;
+}
+
+#välkommen {
+  width: 100%;
+  height: 100%;
+}
+
+#företagsNamn{
+  color: white;
+}
+
+#tennisBG {
+  background: url("../IMGS/stor/bg.jpg");
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+ul {
+  display: flex;
+  margin: 0%;
+}
+
+li {
+  padding: 20px;
+  list-style: none;
+  color: white;
+}
+
+#välkommenText {
+  color: white;
+  text-align: center;
+  font-size: relative;
+  margin-top: 0%;
+  font-family: 'Lora', serif;
+  top: 10%;
+
+}
+
+#menyKnapp{
+  height: 50px;
+  width: 50px;
+  background: url(http://www.stavebniny-zeleny.cz/sites/default/files/menuikona.png);
+  background-size: contain;
+  border: none;
+  position: relative;
+}
+
+
+#välkommenMid{
+  top: 30%;
+  width: 100%;
+  left: auto;
+  position: absolute;
+  text-align: center;
+  font-size: 42px;
+  background: RGBA(0,0,0,0.5);
+}
+
+.submitonamn {
+   background: RGBA(0,0,0,0.5);
+
+ }
+
+.submitonamn a{
+     color: white;
+}
+
+
+#information{
+  color: white;
+  width: 100%;
+  background-size: cover;
+  background: url(https://c.pxhere.com/photos/48/e4/tennis_racket_ball_tennis_ball_background_black_background_moving_ball-650284.jpg!d);
+  height: 120%;
+  font-size: 24px;
+  margin-top: 0%;
+  border-top: solid;
+  border-top-color: white;
+  border-top-width: thick;
+  border-bottom: solid;
+  border-bottom-color: white;
+  border-bottom-width: thick;
+
+}
+
+#höger{
+  width: 30%;
+  height: 70%;
+  margin-left: 10%;
+  margin-top: 0%;
+}
+
+#vänster{
+  width: 40%;
+  height: 50%;
+  margin-left: 10%;
+  margin-top: 5%;
+  background: rgba(0,0,0,0.5);
+}
+
+#infoBoxar{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+#karta{
+  width: 300px;
+  height: 250px;
+  margin-top: 20%;
+  max-width: inherit;
+  max-height: inherit;
+  margin-bottom: 25%;
+}
+
+#höger p{
+    background: rgba(0, 0, 0, 0.5);
+    margin: 0%;
+    margin-right: 5%;
+}
+
+iframe{
+  border-color:rgb(255,165,0);
+}
+
+.recension{
+  font-style: italic;
+  background: rgba(0,0,0,0.5);
+}
+
+span{
+  font-size: 30px;
+}
+
+#kundsupport{
+  position: fixed;
+  width: 15%;
+  height: 5%;
+  background: rgba(255,165,0);
+  bottom: 0;
+  right: 0.5%;
+  text-align: center;
+}
+
+#inputRecension{
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  height: 100px;
+  color: white;
+  font-size: 20px;
+  margin-top: 2%;
+  resize: none;
+}
+#skicka{
+  width: 20%;
+
+}
+
+#beställPlan{
+background: url(../IMGS/stor/bokaplanbg.jpg);
+width: 100%;
+height:150%;
+
+}
+
+#mainPlan{
+  width: 100%;
+  height: 100%;
+}
+
+#priser{
+  color:white;
+  font-size: 32px;
+  text-align: center;
+}
+
+#planWrapper{
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  margin-right: 0%;
+  
+
+}
+
+#priser p{
+  background: rgba(0,0,0,0.5);
+  margin-bottom: 0%;
+}
+
+#priser2{
+  margin-top: 0%;
+}
+
+footer a{
+font-size: 20px;
+text-align: center;
+margin-left: 5%;
+color: black;
+
+
+}
+
+footer{
+  background-color: rgb(255,165,0);
+  height: 10%;
+  color: black;
+  text-align: center;
+  margin-top: 30%;
+}
+
+#beställning{
+border-style: solid;
+background: white;
+width: 60%;
+height: 20%;
+margin-top: 0%;
+margin-right: 2.5%;
+font-size: 26px;
+display: flex;
+border: 1;
+border-color: rgb(255,165,0);
+}
+
+#beställningsInfo{
+margin-left: 2%;
+}
+
+
+#planWrapper button{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+#betala{
+display: flex;
+}
+
+#övrePlaner{
+    margin-left: 25%;
+}
+
+#plan3{
+  width: 180px; height: 338px;
+  background: url('../IMGS/stor/sprite.png') -610px -10px;
+  border: none;
+  margin-left: 13%;
+}
+
+.övrePlaner{
+  display: flex;
+}
+
+#plan1{
+      width: 280px; height: 600px;
+      background: url('../IMGS/stor/sprite.png') -10px -10px;
+      border: none;
+}
+
+
+#plan4 {
+    width: 180px; height: 338px;
+    background: url('../IMGS/stor/sprite.png') -810px -10px;
+    border: none;
+}
+
+#plan2{
+
+width: 280px; height: 600px;
+ background: url('../IMGS/stor/sprite.png') -310px -10px;
+ border: none;
+
+ display: flex;
+}
+
+#nedrePlaner{
+margin-left: 25%;
+display: flex;
+}
+
+@media screen and (max-width: 1300px) {
+
+
+
+}
+
+
+@media screen and (max-width: 1200px) {
+
+#karta{
+  margin-bottom: 30%;
+}
+
+}
+
+@media screen and (max-width: 1175px){
+
+
+}
+
+@media screen and (max-width: 1050px) {
+
+#karta{
+  margin-bottom: 40%;
+}
+
+}
+
+
+@media screen and (max-width: 760px){
+
+#inputRecension{
+  display: none;
+}
+
+.submitonamn{
+  display: none;
+}
+
+
+#karta{
+    margin-bottom: 0%;
+}
+
+#karta iframe{
+  max-width: 70%;
+  max-height: 70%;
+
+}
+
+#karta p{
+  display: none;
+}
+
+#planWrapper{
+display: flex;
+flex-wrap: wrap;
+}
+
+}
+
+@media screen and (max-width: 600px){
+
+
+}
+
+@media screen and (max-width: 550px){
+
+#karta{
+  max-width: 140%;
+  max-height: 90%;
+}
+
+#välkommen h1{
+
+  font-size: 52px;
+
+
+}
+
+
+}
