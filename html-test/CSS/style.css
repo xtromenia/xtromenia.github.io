@@ -121,13 +121,17 @@ padding: 20px, 10px, 10px;
 }
 
 #priser p{
-    padding: 10px 10px 10px;
+    padding: 10px 10px 30px;
 }
 
 #priser span{
 
 font-size: 32px;
 
+}
+
+#priser h2{
+  padding: 10px;
 }
 
 #planer button{
@@ -141,6 +145,7 @@ margin-top: 20px;
 #planer{
 background-color: black;
 color: white;
+padding: 10px;
 }
 
 
