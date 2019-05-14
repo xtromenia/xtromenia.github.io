@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
-
+$('#höger').show();
+$('#vänster').show();
 
   $('#höger').click(function() {
 
