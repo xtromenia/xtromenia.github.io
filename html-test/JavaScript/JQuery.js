@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $("#höger").show(), $("#vänster").show(), $("#höger").click(function() {
+    $("#höger").show(); $("#vänster").show(); $("#höger").click(function() {
         "300%" == $("#imgs").css("right") ? $("#imgs").animate({
             right: "+=0%"
         }) : $("#imgs").animate({
@@ -33,7 +33,7 @@ $(document).ready(function() {
 
 
     })
-    $('#backToTop').click(function () {
+    $("#backToTop").click(function () {
 
       $("html, body").animate({ scrollTop: 0 }, "slow");
       return false;

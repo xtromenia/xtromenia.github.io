@@ -1,13 +1,15 @@
 $(document).ready(function() {
 
-$('#höger').show();
-$('#vänster').show();
+$("#höger").show();
+$("#vänster").show();
 
-  $('#höger').click(function() {
+  $("#höger").click(function() {
 
-    var rv = $('#imgs').css('right');
+    var rv = $("#imgs").css("right");
 
-    if (rv == "750px") { //om x värdet åt höger är lika med 800px så skall det inte gå att röra sig mer åt höger.
+    if (rv === "750px") {
+      //om x värdet åt höger är lika med 800px så
+      //skall det inte gå att röra sig mer åt höger.
 
       $("#imgs").animate({
         right: "+=0px"
@@ -22,11 +24,11 @@ $('#vänster').show();
     };
   });
 
-  $('#vänster').click(function() {
+  $("#vänster").click(function() {
 
-      var rv = $('#imgs').css('right');
+      var rv = $("#imgs").css("right");
 
-    if (rv == "0px") { //om rights värde är 0
+    if (rv === "0px") { //om rights värde är 0
 
       $("#imgs").animate({
         right: "+=0px" //Skall den icke flytta sig åt vänster.
@@ -35,7 +37,8 @@ $('#vänster').show();
     } else {
 
       $("#imgs").animate({
-        right: "+=-375px" //Om den inte är 0, flytta -200 åt höger alltså 200px åt vänster.
+        right: "+=-375px" //Om den inte är 0, flytta -200 åt
+        //höger alltså 200px åt vänster.
       });
 
     }
@@ -43,20 +46,20 @@ $('#vänster').show();
 
 
   var ett=false;
-  var två=false;
+  var tva=false;
   var tre=false;
   var fyra=false;
   var pris=0;
   var antal=0;
   var datum;
 
-  $('#plan1').click(function () {
+  $("#plan1").click(function () {
 
-    datum = $('#tidpunkt').val();
-    $('#datum').text("Datum: "+datum);
+    datum = $("#tidpunkt").val();
+    $("#datum").text("Datum: "+datum);
 
 
-    if(ett==false){
+    if(ett===false){
 
       pris+=500;
       antal+=1;
@@ -73,23 +76,23 @@ $('#vänster').show();
 
     }
 
-    $('#pris').text("Pris: "+pris+"kr");
+    $("#pris").text("Pris: "+pris+"kr");
 
-    $('#antal').text("Antal Planer: "+antal);
+    $("#antal").text("Antal Planer: "+antal);
 
   })
 
-  $('#plan2').click(function () {
+  $("#plan2").click(function () {
 
-    datum = $('#tidpunkt').val();
-    $('#datum').text("Datum: "+datum);
+    datum = $("#tidpunkt").val();
+    $("#datum").text("Datum: "+datum);
 
 
-    if(två==false){
+    if(tva===false){
 
       pris+=500;
       antal+=1;
-      två=true;
+      tva=true;
 
     }
 
@@ -97,24 +100,24 @@ $('#vänster').show();
 
       pris-=500;
       antal-=1;
-      två=false;
+      tva=false;
 
 
     }
 
-    $('#pris').text("Pris: "+pris+"kr");
+    $("#pris").text("Pris: "+pris+"kr");
 
-    $('#antal').text("Antal Planer: "+antal);
+    $("#antal").text("Antal Planer: "+antal);
 
   })
 
-  $('#plan3').click(function () {
+  $("#plan3").click(function () {
 
-    datum = $('#tidpunkt').val();
-    $('#datum').text("Datum: "+datum);
+    datum = $("#tidpunkt").val();
+    $("#datum").text("Datum: "+datum);
 
 
-    if(tre==false){
+    if(tre===false){
 
       pris+=250;
       antal+=1;
@@ -131,27 +134,25 @@ $('#vänster').show();
 
     }
 
-    $('#pris').text("Pris: "+pris+"kr");
+    $("#pris").text("Pris: "+pris+"kr");
 
-    $('#antal').text("Antal Planer: "+antal);
+    $("#antal").text("Antal Planer: "+antal);
 
   });
 
 
-  $('#plan4').click(function () {
+  $("#plan4").click(function () {
 
-    datum = $('#tidpunkt').val();
-    $('#datum').text("Datum: "+datum);
+    datum = $("#tidpunkt").val();
+    $("#datum").text("Datum: "+datum);
 
 
-    if(fyra==false){
+    if(fyra===false){
 
       pris+=250;
       antal+=1;
       fyra=true;
 
-
-      console.log(pris);
     }
 
     else {
@@ -163,16 +164,17 @@ $('#vänster').show();
 
     }
 
-  $('#pris').text("Pris: "+pris+"kr");
+  $("#pris").text("Pris: "+pris+"kr");
 
-    $('#antal').text("Antal Planer: "+antal);
+    $("#antal").text("Antal Planer: "+antal);
 
   });
 
 
-  $('#boka').click(function () {
+  $("#boka").click(function () {
 
-  alert("Du har bokat "+antal+"st planer "+datum+" glöm ej att ta med dig " +pris+"kr \nOCH framförallt! att Ha kul!");
+  alert("Du har bokat "+antal+"st planer "+datum+" glöm ej att ta
+   med dig " +pris+"kr \nOCH framförallt! att Ha kul!");
 
   });
 
