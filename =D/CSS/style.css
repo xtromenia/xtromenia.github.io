@@ -108,3 +108,13 @@ footer{
   height: 10%;
   color: white;
 }
+
+@media screen and (max-width: 1170px){
+
+nav button{
+  margin: 0%;
+
+}
+
+
+}
